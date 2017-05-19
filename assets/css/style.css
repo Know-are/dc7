@@ -321,6 +321,15 @@ header > ul > li:last-of-type{
   transform: translateY(-50%);
 }
 
+.add-job{
+  background: none;
+  color: #bfbfbf;
+}
+
+.add-job-sign{
+  font-size: 40px;
+}
+
 @media screen and (max-width: 700px){
   .grid-wrapper{
     width: 100%;
