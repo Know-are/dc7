@@ -481,6 +481,19 @@ header > ul > li:last-of-type{
   }
 }
 
+/* Slide */
+
+.unslider{
+  position: relative;
+  background: #0e0f10;
+}
+
+.unslider-nav{
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+}
+
 /* Footer */
 
 footer{
