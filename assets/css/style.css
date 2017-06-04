@@ -43,10 +43,10 @@ a{
 
 .text-button{
   box-sizing: border-box;
-  padding: 5px 10px;
+  padding: 10px 10px;
   background: #df6b00;
   font-weight: 500;
-     transition: .05s ease-in;
+  transition: .05s ease-in;
 
 }
 
@@ -234,6 +234,7 @@ header > ul > li:last-of-type{
 
 /* Mobile Overlay */
 
+
 .knoware-overlay{
   font-family: 'Prompt', sans-serif;
   width: 100vw;
@@ -325,6 +326,14 @@ header > ul > li:last-of-type{
 
 /* Hero */
 
+.register-button {
+  position: fixed;
+  width: 85px;
+  right:50px;
+  top:70px;
+  z-index: 10;
+}
+
 .section.hero{
   padding: 100px 5%;
 }
@@ -360,15 +369,30 @@ header > ul > li:last-of-type{
   background-size: cover;
 }
 
+.slide ul li {
+  display: block;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .slide ul li p {
+  font-family: 'Prompt', sans-serif;
+  width: 240px;
+  padding: 10px;
+  background-color: rgba(10,10,10,0.9);
   text-align: left;
-  vertical-align: bottom;
   bottom: 40px;
   margin-left: 5%;
+  font-weight: 400;
+  text-shadow: 0px 1px 1px #fff;
 }
 
 @media screen and (max-width: 800px){
   .slide{
+    height: 320px;
+  }
+  .slide ul li {
     height: 320px;
   }
 }
@@ -463,6 +487,7 @@ header > ul > li:last-of-type{
   .small-slide{
     height: 320px;
   }
+
 }
 
 /* Section Five */
@@ -480,7 +505,7 @@ header > ul > li:last-of-type{
 
 .grey-overlay {
   -webkit-filter: grayscale(100%);
-   filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .grey-overlay:hover {
@@ -499,6 +524,7 @@ header > ul > li:last-of-type{
   float: left;
   position: relative;
    transition: .05s ease-in;
+   background-size: cover;
 }
 
 .grid-item:hover{
