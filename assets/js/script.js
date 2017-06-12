@@ -8,4 +8,9 @@ jQuery(document).ready(function($) {
     autoplay: false,
     arrows: false
   });
+
+  $('.popup-slide').unslider({
+    autoplay: false,
+    arrows: false
+  });
 });
