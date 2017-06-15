@@ -28,7 +28,7 @@ h3{
   font-weight: 300;
 }
 
-p{
+p {
   font-family: sans-serif;
   font-weight: 200;
   font-size: 18px;
@@ -266,6 +266,7 @@ header > ul > li:last-of-type{
   font-size: 1.5em;
   line-height: 3em;
   text-align: center;
+  font-family: 'Prompt', sans-serif;
 }
 
 .knoware-mobile-nav a{
