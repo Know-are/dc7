@@ -644,6 +644,7 @@ header > ul > li:last-of-type{
 
 .popup-content p{
   overflow-y: scroll;
+  height:700px;
 }
 
 .share-link{
