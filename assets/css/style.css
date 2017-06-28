@@ -630,8 +630,8 @@ header > ul > li:last-of-type{
 }
 
 .popup-img{
-  height: 100%;
-  background: blue;
+  height:540px;
+  overflow: hidden;
 }
 
 .popup-content{
